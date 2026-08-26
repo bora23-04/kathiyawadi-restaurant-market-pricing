@@ -180,14 +180,14 @@ was left blank.
 | File | Description |
 |---|---|
 | `README.md` | Project documentation and methodology |
-| `data/Restaurant.xlsx` | Restaurant-level data |
-| `data/Product.xlsx` | Dish/product-level data |
-| `data/Fact_Menu_Price.xlsx` | Menu pricing data |
+| `Restaurant.xlsx` | Restaurant-level data |
+| `Product.xlsx` | Dish/product-level data |
+| `Fact_Menu_Price.xlsx` | Menu pricing data |
 | `powerbi/Kathiyawadi_Restaurant_Market_Pricing.pbix` | Power BI dashboard |
 | `dashboard/page1_market_overview.png` | Dashboard Page 1 preview |
 | `dashboard/page2_competitor_analysis.png` | Dashboard Page 2 preview |
 
-
+Kathiyawadi_Market_Data.xlsx contain Restaurant.xlsx and Fact_Menu_Price.xlsx
 ---
 
 
