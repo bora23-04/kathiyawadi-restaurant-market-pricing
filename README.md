@@ -170,7 +170,7 @@ was left blank.
 - Power BI
 - Power Query
 - DAX
-- Excel / CSV
+- Excel 
 - Web Research
 
 ---
@@ -180,13 +180,13 @@ was left blank.
 | File | Description |
 |---|---|
 | `README.md` | Project documentation and methodology |
-| `data/Restaurant.csv` | Restaurant-level data |
-| `data/Product.csv` | Dish/product-level data |
-| `data/Fact_Menu_Price.csv` | Menu pricing data |
+| `data/Restaurant.xlsx` | Restaurant-level data |
+| `data/Product.xlsx` | Dish/product-level data |
+| `data/Fact_Menu_Price.xlsx` | Menu pricing data |
 | `powerbi/Kathiyawadi_Restaurant_Market_Pricing.pbix` | Power BI dashboard |
 | `dashboard/page1_market_overview.png` | Dashboard Page 1 preview |
 | `dashboard/page2_competitor_analysis.png` | Dashboard Page 2 preview |
-| `sources/source_urls.csv` | Source URLs used for research |
+
 
 ---
 
