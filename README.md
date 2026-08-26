@@ -7,7 +7,7 @@ in Ahmedabad to support pricing decisions for a new restaurant
 planned near Sindhu Bhavan, Ahmedabad.
 
 The analysis focuses on competitor restaurants, restaurant ratings,
-dish-level menu prices, food categories, and market price benchmarks.
+dish-level menu prices, food categories and market price benchmarks.
 
 ---
 
@@ -36,7 +36,7 @@ benchmarks for a new restaurant in Ahmedabad.
 
 The project uses three related tables:
 
-### 1. Dim_Restaurant
+### 1. Restaurant
 
 Contains restaurant-level information.
 
@@ -53,7 +53,7 @@ Columns:
 - Price_Range
 - Source_URL
 
-### 2. Dim_Product
+### 2. Product
 
 Contains dish-level information.
 
@@ -104,18 +104,20 @@ Includes:
 - Market Price Range by Dish
 - Restaurant Rating vs Average Menu Price
 
+<img width="1335" height="732" alt="image" src="https://github.com/user-attachments/assets/caccda79-e795-49a0-a90a-fbb63a7ed9cd" />
+
 ### Page 2 — Competitor Pricing Analysis
 
 Includes:
 
 - Restaurant Price Comparison
 - Average Price by Restaurant
-- Restaurant Rating
-- Restaurant-level pricing comparison
 - Restaurant filter
 - Area filter
 - Dish filter
 - Food Category filter
+  
+<img width="1328" height="742" alt="image" src="https://github.com/user-attachments/assets/53fc055d-e0c0-4f54-9377-a58c771754bf" />
 
 ---
 
@@ -123,7 +125,7 @@ Includes:
 
 The data model consists of:
 
-Dim_Restaurant
+Restaurant
         |
         | Restaurant_ID
         |
@@ -131,7 +133,7 @@ Fact_Menu_Price
         |
         | Product_ID
         |
-Dim_Product
+Product
 
 This model allows the dashboard to dynamically analyze
 restaurant and dish-level pricing.
@@ -178,17 +180,14 @@ was left blank.
 | File | Description |
 |---|---|
 | `README.md` | Project documentation and methodology |
-| `data/Dim_Restaurant.csv` | Restaurant-level data |
-| `data/Dim_Product.csv` | Dish/product-level data |
+| `data/Restaurant.csv` | Restaurant-level data |
+| `data/Product.csv` | Dish/product-level data |
 | `data/Fact_Menu_Price.csv` | Menu pricing data |
 | `powerbi/Kathiyawadi_Restaurant_Market_Pricing.pbix` | Power BI dashboard |
 | `dashboard/page1_market_overview.png` | Dashboard Page 1 preview |
 | `dashboard/page2_competitor_analysis.png` | Dashboard Page 2 preview |
-| `documentation/Data_Dictionary.xlsx` | Column definitions |
 | `sources/source_urls.csv` | Source URLs used for research |
 
 ---
 
-## Author
 
-Anu Rawal
